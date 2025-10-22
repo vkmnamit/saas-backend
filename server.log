@@ -1,0 +1,939 @@
+[SERVER] Routes registered: /api/users/*
+Server is running on port 5002
+MongoDB connected
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee542fb0dc37f581ebd9cf
+[AUTH] loaded user id from DB: 68ee542fb0dc37f581ebd9cf
+[ADD TO CART] Cart item saved successfully: {
+  userId: new ObjectId("68ee542fb0dc37f581ebd9cf"),
+  productId: new ObjectId("68ee55508c5f8621ce203a53"),
+  productName: 'Gaming Laptop',
+  price: 1500,
+  quantity: 1,
+  imageUrl: 'https://example.com/laptop.jpg',
+  _id: new ObjectId("68ee641d11b11e9befa0452a"),
+  createdAt: 2025-10-14T14:54:21.645Z,
+  updatedAt: 2025-10-14T14:54:21.645Z,
+  __v: 0
+}
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee542fb0dc37f581ebd9cf
+[AUTH] loaded user id from DB: 68ee542fb0dc37f581ebd9cf
+[ADD PRODUCT] Request body: {
+  productName: 'Apple MacBook Pro 16',
+  description: 'Powerful laptop with M3 Max chip, perfect for professionals and creators',
+  price: 2499,
+  category: 'Electronics',
+  stock: 15,
+  imageUrl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90',
+  userId: '68e9085614d50a134df3775c'
+}
+[ADD PRODUCT] Creating product instance with: {
+  productName: 'Apple MacBook Pro 16',
+  userId: '68e9085614d50a134df3775c',
+  description: 'Powerful laptop with M3 Max chip, perfect for professionals and creators',
+  price: 2499,
+  category: 'Electronics',
+  stock: 15,
+  imageUrl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90'
+}
+[ADD PRODUCT] Product saved successfully: {
+  productName: 'Apple MacBook Pro 16',
+  description: 'Powerful laptop with M3 Max chip, perfect for professionals and creators',
+  price: 2499,
+  category: 'Electronics',
+  imageUrl: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90',
+  stock: 15,
+  userId: new ObjectId("68e9085614d50a134df3775c"),
+  _id: new ObjectId("68ee644711b11e9befa04530"),
+  createdAt: 2025-10-14T14:55:03.851Z,
+  updatedAt: 2025-10-14T14:55:03.851Z,
+  __v: 0
+}
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products/68ee644711b11e9befa04530
+[SERVER] Incoming request: PUT /api/users/products/68ee644711b11e9befa04530
+[ADD PRODUCT] Request body: {
+  productName: 'Wireless Bluetooth Headphones',
+  description: 'Premium noise-cancelling wireless headphones with 30-hour battery life',
+  price: 299,
+  category: 'Electronics',
+  stock: 25,
+  imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop',
+  userId: '68e9085614d50a134df3775c'
+}
+[ADD PRODUCT] Creating product instance with: {
+  productName: 'Wireless Bluetooth Headphones',
+  userId: '68e9085614d50a134df3775c',
+  description: 'Premium noise-cancelling wireless headphones with 30-hour battery life',
+  price: 299,
+  category: 'Electronics',
+  stock: 25,
+  imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop'
+}
+[ADD PRODUCT] Product saved successfully: {
+  productName: 'Wireless Bluetooth Headphones',
+  description: 'Premium noise-cancelling wireless headphones with 30-hour battery life',
+  price: 299,
+  category: 'Electronics',
+  imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop',
+  stock: 25,
+  userId: new ObjectId("68e9085614d50a134df3775c"),
+  _id: new ObjectId("68ee650411b11e9befa04539"),
+  createdAt: 2025-10-14T14:58:12.851Z,
+  updatedAt: 2025-10-14T14:58:12.851Z,
+  __v: 0
+}
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[ADD TO CART] Cart item saved successfully: {
+  userId: new ObjectId("68e9085614d50a134df3775c"),
+  productId: new ObjectId("68ee650411b11e9befa04539"),
+  productName: 'Wireless Bluetooth Headphones',
+  price: 299,
+  quantity: 1,
+  imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop',
+  _id: new ObjectId("68ee65d011b11e9befa04542"),
+  createdAt: 2025-10-14T15:01:36.425Z,
+  updatedAt: 2025-10-14T15:01:36.425Z,
+  __v: 0
+}
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/analytics
+[SERVER] Incoming request: GET /api/analytics
+[SERVER] Incoming request: GET /api/analytics
+[SERVER] Incoming request: GET /api/analytics
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/analytics
+[SERVER] Incoming request: GET /api/analytics
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[SERVER] Incoming request: GET /api/products?userId=68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68ee6db611b11e9befa04628
+[AUTH] loaded user id from DB: 68ee6db611b11e9befa04628
+[SERVER] Incoming request: POST /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[ADD TO CART] Cart item saved successfully: {
+  userId: new ObjectId("68e9085614d50a134df3775c"),
+  productId: new ObjectId("68eb54944099bdf73531e7a9"),
+  productName: 'maggie',
+  price: 15,
+  quantity: 1,
+  imageUrl: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo%2Fmaggi-noodles.html&psig=AOvVaw0drxuhbrr5cKnW7G1wSXfD&ust=1760339439384000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMCj1cqNnpADFQAAAAAdAAAAABAE',
+  _id: new ObjectId("68ee6f1811b11e9befa04654"),
+  createdAt: 2025-10-14T15:41:12.454Z,
+  updatedAt: 2025-10-14T15:41:12.454Z,
+  __v: 0
+}
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: POST /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/settings
+[SERVER] Incoming request: GET /api/settings
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/analytics
+[SERVER] Incoming request: GET /api/analytics
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/settings
+[SERVER] Incoming request: GET /api/settings
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products?userId=68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/settings
+[SERVER] Incoming request: GET /api/settings
+[SERVER] Incoming request: POST /api/settings
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/settings
+[SERVER] Incoming request: GET /api/settings
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /api/settings
+[SERVER] Incoming request: GET /api/settings
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/settings
+[SERVER] Incoming request: GET /api/settings
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[SERVER] Incoming request: GET /health
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/analytics
+[SERVER] Incoming request: GET /api/analytics
+[SERVER] Incoming request: GET /api/analytics
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
+[AUTH] token snippet: eyJhbGci...
+[AUTH] token payload id: 68e9085614d50a134df3775c
+[AUTH] loaded user id from DB: 68e9085614d50a134df3775c
+[SERVER] Incoming request: GET /api/products
