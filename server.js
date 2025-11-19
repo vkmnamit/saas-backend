@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const express = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
@@ -12,8 +10,7 @@ const bulkUploadRoutes = require('./api/bulkUploadRoutes');
 const app = express();
 const PORT = process.env.PORT || 5002;
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/yourdbname';
-mongoose.connect(MONGO_URI, {
+mongoose.connect('mongodb://localhost:27017/yourdbname', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
