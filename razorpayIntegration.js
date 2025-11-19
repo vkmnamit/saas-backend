@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const Razorpay = require('razorpay');
 const crypto = require('crypto');
+require('dotenv').config();
 
 const app = express();
 
@@ -9,13 +10,13 @@ const app = express();
 app.use(express.json());
 app.use(cors({ origin: ['http://localhost:5173', 'http://localhost:5174'], credentials: true }));
 
-// Initialize Razorpay instance
-// ⚠️ IMPORTANT: Replace these with your actual Razorpay credentials
-// Get them from: https://dashboard.razorpay.com/app/website-app-settings/api-keys
+// Initialize Razorpay instance using environment variables
 const razorpay = new Razorpay({
-    key_id: 'rzp_test_RSy5sbSpCkYCqq', // Replace with your Razorpay Key ID
-    key_secret: 'pxRXpXW2EVZzn6Egp40KHyvn', // Replace with your Razorpay Secret
+    key_id: process.env.RAZORPAY_KEY_ID || 'rzp_test_RSy5sbSpCkYCqq',
+    key_secret: process.env.RAZORPAY_KEY_SECRET || 'pxRXpXW2EVZzn6Egp40KHyvn',
 });
+
+console.log('✅ Razorpay initialized with key:', process.env.RAZORPAY_KEY_ID || 'rzp_test_RSy5sbSpCkYCqq');
 
 // Create Order - Called before payment
 app.post('/api/payment/create-order', async (req, res) => {
@@ -72,7 +73,7 @@ app.post('/api/payment/verify', async (req, res) => {
         // Verify signature
         const sign = razorpay_order_id + '|' + razorpay_payment_id;
         const expectedSign = crypto
-            .createHmac('sha256', 'pxRXpXW2EVZzn6Egp40KHyvn')
+            .createHmac('sha256', process.env.RAZORPAY_KEY_SECRET || 'pxRXpXW2EVZzn6Egp40KHyvn')
             .update(sign.toString())
             .digest('hex');
 
